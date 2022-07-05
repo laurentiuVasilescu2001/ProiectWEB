@@ -1,0 +1,316 @@
+/* Reset */
+html {
+    color: rgb(119, 119, 119);
+    font-family: 'Open Sans', Arial;
+}
+
+* {
+    box-sizing: border-box;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    min-height: 100%;
+}
+
+img {
+    border: 0;
+}
+
+a:focus,
+a:active,
+button:focus {
+    outline: 0;
+}
+
+/* Defaults */
+a {
+    color: rgb(46, 154, 194);
+    text-decoration: none;
+}
+
+.button-send {
+    background-color: rgb(54, 114, 136);
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    
+}
+
+.button-send:hover 
+{
+    background-color: rgb(43, 139, 173);
+    cursor: pointer;
+
+    
+}
+
+.button-delete {
+    background-color: rgb(216, 20, 20);
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    width: 90px;
+    height: 30px;
+
+
+}
+.button-delete:hover 
+{
+    background-color: rgb(236, 12, 12);
+    cursor: pointer;
+  
+}
+.button-login {
+    background-color: rgb(21, 226, 99);
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+
+
+}
+.button-login:hover 
+{
+    background-color: rgb(6, 247, 98);
+    cursor: pointer;
+}
+
+.button-details {
+    background-color: rgb(206, 235, 248);
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+
+
+}
+.button-details:hover 
+{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+
+/* Tweets */
+.tweet {
+    overflow: hidden;
+}
+
+.tweet > img {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 4px;
+}
+
+.tweet .body {
+    margin-left: 60px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet .title {
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+
+.tweet .message {
+    margin-top: 10px;
+}
+
+/* Structure */
+body {
+    background: rgb(192, 222, 237) url('../images/bg.png') repeat-x;
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 20px;
+    background-color: rgb(239, 242, 247);
+    border: 1px solid rgb(192, 225, 237);
+    border-radius: 10px;
+    padding: 10px;
+}
+.div-pagina{
+    margin-top: 20px;
+    background-color: rgb(239, 242, 247);
+    border: 1px solid rgb(192, 225, 237);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.tweets {
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(192, 225, 237);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Thread and Replies */
+.thread {
+    border-bottom: 1px solid rgb(225, 232, 237);
+    
+}
+
+.thread .tweet {
+    margin: 10px;
+
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+
+  .welocme-title{
+    color:black;
+    font-size: 20px;
+}
+/* Topnav */
+#topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  #topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #topnav a:hover {
+    background-color: rgba(61, 167, 199, 0.836);
+    color: black;
+  }
+  
+  
+  #topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.box-text{
+    width: 70%;
+    background: #e9dbdb;
+    padding: 10px
+    
+
+}
+
+.box-title{
+    width: 10%;
+    background: #e7dada;
+    padding: 10px
+    
+
+}
+#boxx{
+    
+        border: 2px ;
+        padding: 10px;
+        border-radius: 25px;
+      
+      
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+dl {
+    background: #bdc0c4;
+    padding: 20px;
+    border-radius: 25px;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+
+  /* drop-down*/
+  .dropbtn {
+    background-color: #dfdbdb;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+ 

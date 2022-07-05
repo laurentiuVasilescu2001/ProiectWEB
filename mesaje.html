@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profil</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1 class="welocme-title" align="center" id="Titlu">Bine ai venit!!!</h1>
+    <main>
+        <header id="formPosteaza">
+            <form > 
+                <div> <h2><label for="postare">Postare:</label>
+                    <input type="text" id="postare" name="Postare" size="15"></h2><br>
+                </div>
+                <div>
+                    
+                    <textarea placeholder="Descriere..." id="descriere"></textarea></br>
+                    
+                </div></br>
+               
+                
+                <div>
+                <h2>Stare</h2>
+                <form>
+                    
+                    <input type="radio" id="fericit" name="stare" value="fericit">
+                    <label for="Fericit"><img src="images/smile.png"  width="20" height="20">  </label><br>
+                    <input type="radio" id="trist" name="stare" value="trist">
+                    <label for="Trist"><img src="images/sad.png"  width="20" height="20"> </label><br>
+                    <input type="radio" id="plictisit" name="stare" value="plictisit">
+                    <label for="Plictisit"><img src="images/bored.png"  width="20" height="20"> </label><br>
+                    <input type="radio" id="îngândurat" name="stare" value="ingandurat">
+                    <label for="Îngândurat"><img src="images/thinking.png"  width="20" height="20"> </label></form>
+                </form> 
+                </div></br>
+                <div style="text-align:center"><button class="button-send" id="Posteaza">Posteaza</button></div>
+            </form>
+        </header>
+
+        <div id="listaPostari" class="tweets">
+         
+        </div>
+
+            
+    </main>
+<main>
+    <div class="div-pagina">
+        <div>
+        
+        <h2 id="TimpPetrecut">Timp petrecut in aplicatie</h2>
+        <h2 id="DetaliiLogin">Detalii login</h2>
+        <h2 id="NumarAccesari">Numar accesari</h2>
+
+        </div>
+    </div>
+    </main>
+    <script type="text/javascript" src="./js/mesaje.js"></script>
+</body>
+</html>
